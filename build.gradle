@@ -8,9 +8,9 @@ plugins {
 group = 'com.cicd'
 version = '0.0.1-SNAPSHOT'
 
-war {
+bootJar {
 	archiveBaseName = 'myapi'
-	archiveFileName = 'myapi.war'
+	archiveFileName = 'myapi.jar'
 }
 
 java {
